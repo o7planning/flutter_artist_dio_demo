@@ -1,0 +1,34 @@
+name: flutter_artist_dio_demo
+description: "FlutterArtist Dio Demo"
+publish_to: 'none'
+homepage: https://o7planning.github.io
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.9.0
+  fresh_dio: ^0.6.0
+  json_serializable: ^6.12.0
+  json_annotation: ^4.10.0
+  flutter_artist_core: ^0.9.1
+  flutter_artist_dio: ^0.9.0
+  flutter_left_right_container: ^0.9.0
+
+
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.10.4
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
