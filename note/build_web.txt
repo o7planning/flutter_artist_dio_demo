@@ -2,4 +2,4 @@
 
 
 
-flutter build web --base-href /demo/flutter_artist_dio_demo/ --profile
+flutter build web --base-href /demo/flutter/flutter_artist_dio_demo/ --profile

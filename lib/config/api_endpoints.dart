@@ -8,7 +8,7 @@
 library;
 
 /// Demo:
-/// https://o7planning.github.io/static/demo/flutter_artist_dio_demo/json/currency-infos.json
+/// https://o7planning.github.io/static/demo/flutter/flutter_artist_dio_demo/json/currency-infos.json
 ///
 /// IMPORTANT: If you run in localhost:
 /// flutter run -d chrome --web-browser-flag "--disable-web-security"

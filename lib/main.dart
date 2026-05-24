@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Artist Network Core Workspace'),
+      home: const MyHomePage(title: 'Flutter Artist DIO Demo'),
     );
   }
 }
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
               showToken: true,
             ),
             icon: const Icon(Icons.network_check_rounded, size: 16),
-            label: const Text('Network Inspector'),
+            label: const Text('DIO Network Inspector'),
           ),
         ],
       ),
