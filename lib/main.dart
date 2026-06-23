@@ -207,7 +207,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _isListLoading = true;
     });
 
-    ApiResult<CurrencyInfoPage> result = await _provider.query(
+    ApiResult<PageData<CurrencyInfo>> result = await _provider.query(
       pageable: Pageable(pageSize: 20),
     );
 

@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter_artist_core/flutter_artist_core.dart';
 import 'package:flutter_artist_dio/flutter_artist_dio.dart';
 import 'package:fresh_dio/fresh_dio.dart';
 
@@ -55,7 +56,7 @@ FlutterArtistDio _createFlutterArtistDio({bool bytesResponse = false}) {
   final loggerInterceptor = FlutterArtistDioLoggerInterceptor();
   _dio.interceptors.add(loggerInterceptor);
 
-  return FlutterArtistDio(dio: _dio);
+  return FlutterArtistDio(dio: _dio, pageMapping: PageMapping());
 }
 
 // *****************************************************************************

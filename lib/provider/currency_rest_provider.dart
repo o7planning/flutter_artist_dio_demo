@@ -7,7 +7,7 @@ import '../model/model.dart';
 class CurrencyRestProvider {
   // Base URL: https://o7planning.github.io
   // Path: /static/demo/flutter/flutter_artist_dio_demo/json/currency-infos.json
-  Future<ApiResult<CurrencyInfoPage>> query({
+  Future<ApiResult<PageData<CurrencyInfo>>> query({
     required Pageable pageable,
     String? searchText,
   }) async {
@@ -20,10 +20,10 @@ class CurrencyRestProvider {
 
     // Base URL: https://o7planning.github.io
     // Path: /static/demo/flutter/flutter_artist_dio_demo/json/currency-infos.json
-    ApiResult<CurrencyInfoPage> result = await flutterArtistDio.jsonGet(
+    ApiResult<PageData<CurrencyInfo>> result = await flutterArtistDio.jsonGetPage(
       path,
       queryParameters: queryParameters,
-      converter: CurrencyInfoPage.fromJson,
+      converter: CurrencyInfo.fromJson,
     );
     return result;
   }
