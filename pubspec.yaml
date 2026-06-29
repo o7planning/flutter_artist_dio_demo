@@ -3,7 +3,7 @@ description: "FlutterArtist Dio Demo"
 publish_to: 'none'
 homepage: https://o7planning.github.io
 # resolution: workspace
-version: 1.0.0
+version: 2.0.0
 
 environment:
   sdk: ^3.11.5
@@ -11,16 +11,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-  dio: ^5.9.0
+  dio: ^5.10.0
   fresh_dio: ^0.6.0
   json_serializable: ^6.12.0
   json_annotation: ^4.10.0
   cupertino_icons: ^1.0.8
 
 
-  flutter_artist_core: ^2.0.0
-  flutter_artist_dio: ^1.0.0
-  flutter_left_right_container: ^0.9.5
+  flutter_artist_core: ^3.0.0
+  flutter_artist_dio: ^2.0.0
+  flutter_left_right_container: ^0.9.6
 
 dev_dependencies:
   flutter_test:
